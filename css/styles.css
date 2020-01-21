@@ -1,0 +1,237 @@
+/* Css Variables */
+:root {
+    --dark-blue:#190657;
+}
+/* Css Variables */
+
+/* Navbar Custom Css  */
+
+nav {
+    padding: 2rem;
+}
+
+.navbar-default {
+    border: 0 none;
+    margin-bottom :0;
+}
+
+a.navbar-brand {
+    font-size: 2.5rem;
+}
+
+ul.nav li a.nav-link {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+ul.nav li a.nav-link, nav.navbar a.navbar-brand{
+    color: var(--dark-blue);
+}
+
+ul.nav li a.active {
+    font-weight: 900;
+}
+
+/* Navbar Custom Css  */
+
+/* Hero Banner Section */
+
+
+.title {
+    padding-left: 2.0rem;
+    padding-top: 20%;
+    margin-bottom: 2.5rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.description {
+    padding: 1.0rem 2.0rem 3.0rem 2.0rem;
+    line-height: 2.0;
+    opacity: 0.5;
+    font-size: 1.75rem;
+}
+
+.banner-button {
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    font-weight: 900;
+    margin: 0rem 0rem 4.0rem 2.0rem;
+    width: 33.33%;
+    border-radius: 10px;
+    box-shadow: -0.5px 4px 10px #999;
+}
+
+.banner-button:hover {
+    background-color:transparent;
+    border: 2px solid #190657;
+    color:#190657;
+}
+
+/* Hero Banner Section */
+
+
+/* About Section */
+
+.about {
+   padding: 4.0rem;
+}
+
+.about-title {
+    padding-top : 12.5%;
+}
+
+.about-image {
+    padding: 2.0rem;
+}
+
+/* About Section  */
+
+/* Verticals Section */
+
+.verticals {
+    padding: 6.0rem 4.0rem;
+}
+
+.vertical-card {
+    padding: 2.5rem;
+    margin:1.5rem 0.rem;
+}
+
+.vertical-card-icon {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 2.5rem;
+}
+
+.vertical-card-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 2.0rem;
+}
+
+.vertical-card-description {
+   padding-top: 1.0rem;
+   line-height: 2.0;
+   color: #888;
+}
+
+.link {
+    font-weight: 700;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-left: 2.0rem;
+}
+
+/* Verticals Section */
+
+/* Mobile Responsive Media Queries Starts Here */
+@media only screen and (max-width: 768px) {
+
+    .hero {
+        padding: 1.0rem;
+    }
+
+    .title {
+        padding: 1.75rem 0rem 1.75rem 1.0rem;
+        font-size: 3.0rem;
+        font-weight: 900;
+        margin-bottom: 0;
+        margin-top : 0;
+        line-height: 1.5;
+    }
+
+    .description {
+        padding: 2.0rem 0rem 2.0rem 1.0rem;
+        font-size: 1.75rem;
+        margin-bottom: 0;
+    }
+
+    .banner-button {
+        width: 90%;
+        margin-left: 1.0rem;
+        margin-top: 1.5rem;
+        font-size: 2.0rem;
+        padding: 2.0rem 0rem;
+    }
+    .about-image {
+        margin-top: 2.5rem;
+        padding: 0 none;
+    }
+    .about {
+        padding: 2.0rem;
+    }
+
+    .vertical-card {
+        padding: 2rem 0rem;
+        margin: 2rem 0rem;
+    }
+
+    .vertical-card-icon {
+        margin: 0 auto;
+        margin-bottom: 3.0rem;
+    }
+
+    .vertical-card-title {
+        font-size: 2.25rem;
+    }
+
+    .vertical-card-title, .vertical-card-description {
+        text-align: center;
+    }
+
+    .vertical-card-description {
+        font-size: 1.5rem;
+    }
+    .section-title {
+        font-size: 3.0rem;
+        padding-left: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title {
+        font-size: 2.5rem;
+    }   
+
+    .about {
+        padding: 1.0rem;
+    }
+    .banner-button {
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile Responsive Media Queries Ends Here */
+
+/* Custom Colors */
+
+.dark-blue {
+    color: #190657;
+}
+
+.bg-light-pink {
+    background-color: #FFF6F8;
+}
+
+.bg-near-white{
+    background-color: #FFFAFA;
+}
+
+.bg-light-blue {
+    background-color: #F8FFFF;
+}
+
+.bg-dark-blue {
+    background-color: #190657;  
+}
+
+.bg-light-green {
+    background-color: #F3FFEF;
+}
